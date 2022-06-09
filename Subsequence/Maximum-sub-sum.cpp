@@ -24,6 +24,6 @@ int main()
     int n=arr.size();
     vector<vector<int>>dp(n+1,vector<int>(3,-1));
     int counter=0;
-    int a=55;
+    int a=10;
     cout<<"Maximum sum is: "<<subsequenceSum(n-1,arr,dp,counter)<<endl;
 }
